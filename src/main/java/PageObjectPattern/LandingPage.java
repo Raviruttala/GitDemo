@@ -33,16 +33,19 @@ public class LandingPage
 	public WebElement getTitle()
 	{
 		return driver.findElement(title);
+		System.out.println("new commit");
 		
 	}
 	public WebElement bartabs()
 	{
 		return driver.findElement(barNavigations);
+		System.out.println("new commit");
 	}
 
 	public WebElement header()
 	{
 		return driver.findElement(banner);
+		System.out.println("new commit");
 	}
 
 }
